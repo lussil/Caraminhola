@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilos gerais */
+
+p,span,h1,h2{
+    color: #fff;
+}
+
+#menu_ativo{
+    color:white;
+    text-decoration: underline;
+}
+
+
+body{
+    background: #000;
+}
+img{
+    width: 100%;
+}
+
+
+/*    header   */
+header{
+    background: #000;
+}
+
+.header img{
+    width: 120px;
+}
+
+ .header{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .header ul li {
+     display: inline;
+ }
+
+
+.header ul li a {
+    color: #F2C800;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    
+}
+
+
+
+.header ul li a:hover{
+    color: white;
+   
+
+
+}
+
+   /*  INICIO */
+
+
+.inicio-bg{
+    background: url("../img/bg_inico.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%; 
+    
+}
+
+.inicio {
+    width: 960px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 125px;
+    
+    
+    
+}
+.inicio h1{
+    margin: 15px auto;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace
+    
+    
+}
+
+.inicio h1::after{
+    content: '';  
+    display: block;
+    width: 300px;
+    height: 3px; 
+    background: white;
+    margin: 14px auto 10px auto;
+    
+}
+
+
+.inicio p {
+    margin: 15px auto 30px auto;
+    width: 320px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Baskervville', serif;
+}
+
+/* FILMES DESTAQUE */
+
+
+.destaques{
+    max-width: 960px;
+    margin: 15px auto 15px auto;
+    
+}
+
+.outrosdestaques{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FilmeDestaque1 .tituloFilme {
+    position: relative;
+    top:-10px;
+    width: 100%;
+    padding: 10px;
+    background: #ffc91f;
+    font-size: 28px;
+    color: #000;
+    
+}
+
+.FilmeDestaque2 .tituloFilme{
+    position: relative;
+    top:-10px;
+    width: 100%;
+    padding: 10px;
+    background: #ffc91f;
+    font-size: 22px;
+    color: #000;
+}
+
+
+
+.subtilo{
+    text-align: center;
+    margin: 0 auto;
+    padding:15px 15px 25px 15px;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+}
+.subtilo::after{
+    content: '';  
+    display: block;
+    width: 90px;
+    height: 3px; 
+    background: white;
+    margin: 7px auto 10px auto;}
+
+.FilmeDestaque2{
+    max-width: 195px;
+}
+
+
+/*          footer     */
+
+footer{
+    background: #141414;
+}
+
+.hr{
+    border-top: 2px solid #F2C800;
+    
+}
+.footer h2{
+    font-size: 22px;
+}
+
+.footer span{
+    font-size: 20px;
+    display:block;
+}
+
+.footer{
+    max-width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer ul li{
+    margin: 15px 0;
+    list-style: none;
+}
+/* REDES SOCIAIS  */
+.footer div:nth-child(1) ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer div:nth-child(1) ul li a:hover{
+    color: white;
+}
+
+.footer div:nth-child(1) ul li{
+   
+    text-align: center;
+    border-radius: 6px;
+    
+}
+
+.footer div:nth-child(1) li:nth-child(1){
+    background: #c4302b ;
+}
+
+.footer div:nth-child(1) li:nth-child(2){
+    background: #3b5998  ;
+}
+
+
+.footer div:nth-child(1) li:nth-child(3){
+    background: #106CA3 ;
+}
+
+
+/*  footer contato */
+
+
+.footer div:nth-child(3) ul li a{
+    font-size: 20px;
+}
+
+
+
+/* copyright */
+
+.copy{
+    margin: 0px auto;
+    width: 600px;
+    text-align: center;
+    padding:50px;
+}
+footer a{
+    color: #A9AEB3;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.1s ease-in-out;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
